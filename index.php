@@ -63,9 +63,7 @@ include('db.php');
 						<ul class="nav navbar-nav menu__list">
 							<li class="menu__item menu__item--current"><a href="#index" class="menu__link">Home</a></li>
 							<li class="menu__item"><a href="#about" class="menu__link scroll">About</a></li>
-							<li class="menu__item"><a href="#team" class="menu__link scroll">Team</a></li>
 							<li class="menu__item"><a href="#client" class="menu__link scroll">Clients</a></li>
-							<li class="menu__item"><a href="#advantages" class="menu__link scroll">Services</a></li>
 							<li class="menu__item"><a href="#contact" class="menu__link scroll">Contact Us</a></li>
 						</ul>
 					</nav>
@@ -81,14 +79,35 @@ include('db.php');
 		<div class="slider">
 			<div class="callbacks_container">
 				<ul class="rslides callbacks callbacks1" id="slider4">
+					    <li>
+                                                <div class="w3layouts-banner-top w3layouts-banner-top2">
+                                                        <div class="container">
+                                                                <div class="agileits-banner-info">
+                                                                <h4>SPIRIT</h4>
+                                                                <h3>Your Corporate Trainer</h3>
+                                                                                <!--
+                                                                                <p>Get accommodation today</p>
+                                                                                --!>
+                                                                        <div class="agileits_w3layouts_more menu__item">
+                                                                        <br>
+                                                                        <br>
+                                                                                        <a href="#" class="menu__link" data-toggle="modal" data-target="#myModal2">Learn More</a>
+                                                                                </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </li>
+
 					<li>
 						<div class="w3layouts-banner-top">
 
 							<div class="container">
 								<div class="agileits-banner-info">
 								<h4>SPIRIT</h4>
-									<h3>We measure progress </h3>
+									<h3>Measure your progress </h3>
 									<div class="agileits_w3layouts_more menu__item">
+										<br>
+										<br>
 										<a href="#" class="menu__link" data-toggle="modal" data-target="#myModal">Learn More</a>
 									</div>
 								</div>	
@@ -100,30 +119,16 @@ include('db.php');
 							<div class="container">
 								<div class="agileits-banner-info">
 								<h4>SPIRIT</h4>
-									<h3>We Predict performance</h3>
+									<h3>Predict Your performance</h3>
 										<!--
 										<p>Come & enjoy precious moment with us</p>
 										--!>
 									<div class="agileits_w3layouts_more menu__item">
+						<br>
+						<br>
 				<a href="#" class="menu__link" data-toggle="modal" data-target="#myModal1">Learn More</a>
 			</div>
 								</div>	
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="w3layouts-banner-top w3layouts-banner-top2">
-							<div class="container">
-								<div class="agileits-banner-info">
-								<h4>SPIRIT</h4>
-								<h3>We do Corporate Training</h3>
-										<!--
-										<p>Get accommodation today</p>
-										--!>
-									<div class="agileits_w3layouts_more menu__item">
-											<a href="#" class="menu__link" data-toggle="modal" data-target="#myModal2">Learn More</a>
-										</div>
-								</div>
 							</div>
 						</div>
 					</li>
@@ -155,10 +160,11 @@ include('db.php');
 										<button type="button" class="close" data-dismiss="modal">&times;</button>
 										<h4>SPIRIT<span></span></h4>
 										<img src="images/learn.jpg" alt=" " class="img-responsive">
-										<h5>We Measure progress</h5>
+										<h5>Measure your progress</h5>
 										<p>Identify Parameters</p>
-										<p>Quantity Progress</p>
-										<p>Measure Progress</p>
+										<p>Quantify Progress</p>
+                                                                                <p>Measure Clarity of Thoughts</p>
+                                                                                <p>Measure Efficiency in Action</p>
 									</div>
 								</div>
 							</div>
@@ -182,11 +188,11 @@ include('db.php');
                                                                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                                                                                 <h4>SPIRIT<span></span></h4>
                                                                                 <img src="images/learn1.jpg" alt=" " class="img-responsive">
-                                                                                <h5>We predict performance</h5>
-                                                                                <p>Psychometric Assesment pre and post Training</p>
-                                                                                <p>360 degree  Assesment</p>
-                                                                                <p>Measure clarity of thoughts</p>
-                                                                                <p>Measure efficiency in action</p>
+                                                                                <h5>Predict your performance</h5>
+                                                                                <p>Psychometric Assesment </p>
+										<p>Pre Training Assesment</p>
+										<p>Post Training Assesment</p>
+                                                                                <p>360&#176;  Assesment</p>
                                                                         </div>
                                                                 </div>
                                                         </div>
@@ -206,12 +212,17 @@ include('db.php');
                                                                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                                                                                 <h4>SPIRIT<span></span></h4>
                                                                                 <img src="images/learn2.jpg" alt=" " class="img-responsive">
-                                                                                <h5>The Corporate Training , Learning and Development , Optimise Performance</h5>
-                                                                                <p>Team Building- Communication-Leadership</p>
-                                                                                <p>Time Managment-Conflict Management-Change Management</p>
-                                                                                <p>Stress Management-Attitude Management</p>
-										<ul>Emotion Management-Energy Management,Thoghts Management,information,Knowlwdge,Wisdom</ul>
-
+                                                                                <h5>Learning and Development</h5>
+                                                                                <p>Team Building</p>
+										<p>Communication</p>
+										<p>Leadership</p>
+                                                                                <p>Time Managment</p>
+										<p>Conflict Management
+										<p>Change Management</p>
+                                                                                <p>Stress Management</p>
+										<p>Emotion Regulation</p>
+										<p>Energy Management</p>
+										<p>Thought Management</p>
                                                                         </div>
                                                                 </div>
                                                         </div>
@@ -226,10 +237,7 @@ include('db.php');
 
 
 
-<div id="availability-agileits">
-<div class="col-md-12 book-form-left-w3layouts">
-	<a href="admin/reservation.php"><h2>SEND ENQUIRY</h2></a>
-</div>
+
 <!-- //banner-bottom -->
 <!-- /about -->
  	<div class="about-wthree" id="about">
@@ -237,174 +245,26 @@ include('db.php');
 				   <div class="ab-w3l-spa">
                             <h3 class="title-w3-agileits title-black-wthree">About SPIRIT</h3> 
 						   <p class="about-para-w3ls"> <div class="about_me mb_30 animated fadeInRight" style="padding: 40px 30px;    box-shadow: 0px 0px 6px;">
-                        <p style="font-size: 16px;line-height: 33px;text-align: justify;">SPIRIT aims to strive for ORGANISATIONAL EXCELLENCE and commits to contribute for the same by widening the horizons OF LEARNING AND DEVELOPMENT.</p>
-                        <p style="font-size: 16px;line-height: 33px;text-align: justify;">SPIRIT excel in diagnosing ORGANISATIONAL NEEDS essential to meet their Goals and providing Customised Training Solutions with equally EFFECTIVE IMPLEMENTATION METHODOLOGIES. </p>
-                        <p style="font-size: 16px;line-height: 33px;text-align: justify;">SPIRIT follows and maintains a diligent approach of BUILDING ON THE BASICS. This fundamental and Result Oriented Approach involves focusing on performance and integrating organisational efforts by aligning Individual goals with Organisational goals.</p>
+                        <p style="font-size: 16px;line-height: 33px;text-align: justify;">SPIRIT aims to strive for ORGANISATIONAL EXCELLENCE and commits to contribute for the same by widening the horizons of LEARNING AND DEVELOPMENT.</p>
+                        <p style="font-size: 16px;line-height: 33px;text-align: justify;">SPIRIT excels in diagnosing ORGANISATIONAL NEEDS essential to meet their Goals and provids CUSTOMISED TRAINING SOLUTIONS with equally EFFECTIVE IMPLEMENTATION METHODOLOGIES. </p>
+                        <p style="font-size: 16px;line-height: 33px;text-align: justify;">SPIRIT follows and maintains a diligent approach of BUILDING ON THE BASICS. This fundamental and RESULT ORIANTED APPROCH involves focusing on performance and integrating organisational efforts by ALIGNING INDIVISUAL GOALS with Organisational goals.</p>
                      </div> </p>
 						   <img src="images/about.jpg" class="img-responsive" alt="Hair Salon">
-										<div class="w3l-slider-img">
-											<img src="images/a1.jpg" class="img-responsive" alt="Hair Salon">
-										</div>
-                                       <div class="w3ls-info-about">
-					    <h4>SPIRIT Visoion</h4>
-						<p>SPIRIT’s regime to excel in Corporate Training Services has expanded our service horizon to providing Business Solutions!!</p>
-					</div>
 		          </div>
 		   	<div class="clearfix"> </div>
-    </div>
-</div>
+
+<!--
 <div id="availability-agileits">
 	<div class="col-md-12 book-form-left-w3layouts">
         	<a href="admin/reservation.php"><h2>SEND ENQUIRY</h2></a>
 	</div>
-
-
-
- 	<!-- //about -->
-<!--sevices-->
-<div class="advantages" id="advantages">
-	<div class="container">
-		<div class="advantages-main">
-				<h3 class="title-w3-agileits">Our Services</h3>
-		   <div class="advantage-bottom">
-			 <div class="col-md-6 advantage-grid left-w3ls wow bounceInLeft" data-wow-delay="0.3s">
-			 	<div class="advantage-block ">
-					<i class="fa fa-credit-card" aria-hidden="true"></i>
-			 		<h4>Business Solutions </h4>
-			 		<p>SPIRIT’s regime to excel in Corporate Training Services has expanded our service horizon to
-providing Business Solutions. We excel in creating a reasoned Yardstick with the Effective
-tools to analyse, measure, predict and develop solutions, thereby making Business more
-resilient and therefore relevant for the Customers.
-Our Business Solutions Services engage in Resolving Conflict, Managing Crisis, Identifying
-Performance Gaps and Improving on them, Aligning Organisational Goals with Employee
-Goals, Strategic Planning, Skill Development, Business Process Management, Administrative
-Services, Developing Contact Centre Metrics that matter, Staff Motivation and Agent
-Empowerment, Survey Administration, Effective Data Management, Solving Complex Problems, Comprehensive  Monitoring, Increasing Reliability, Improving Customer Services and Customer Focus etc. 
-</p>
-				<!--	<p><i class="fa fa-check" aria-hidden="true"></i>Decorated room, proper air conditioned</p>
-					<p><i class="fa fa-check" aria-hidden="true"></i>Private balcony</p>
-			 		
-				--!>
-			 	</div>
-			 </div>
-			 <div class="col-md-6 advantage-grid right-w3ls wow zoomIn" data-wow-delay="0.3s">
-			 	<div class="advantage-block">
-					<i class="fa fa-clock-o" aria-hidden="true"></i>
-			 		<h4>HR Solutions</h4>
-			 		<p>SPIRIT through HR Solutions brings together expertise from varied areas to meet the work
-challenges pertinent to Human Resource Management. Our HR Solutions services avail the
-client a vast expertise from HR Managers, Advocates, Chartered Accountants, Psychologists,
-and Corporate Trainers. SPIRIT is thus empowered to provide all types of HR Solutions
-including Hiring and Managing Talent, Restructuring and Managing Redundancy, Processing
-Payroll, Forming policies for Employee welfare,Employee motivation and creating leagal contacts.</p>
-					<!--
-					<p><i class="fa fa-check" aria-hidden="true"></i>24 hours room service</p>
-					<p><i class="fa fa-check" aria-hidden="true"></i>24-hour Concierge service</p>
-					--!>
-			 	</div>
-			 </div>
-			<div class="clearfix"> </div>
-			</div>
-		</div>
 	</div>
-</div>
+	</div>
+
+!-->
+
 <!--//sevices-->
 <!-- team -->
-<div class="team" id="team">
-	<div class="container">
-			<h3 class="title-w3-agileits title-black-wthree">Meet Our Team</h3>
-			<div id="horizontalTab">
-					<ul class="resp-tabs-list">
-					<li>
-						<img src="images/teams1.jpg" alt=" " class="img-responsive" />
-					</li>
-					<li>
-						<img src="images/teams2.jpg" alt=" " class="img-responsive" />
-					</li>
-					<li>
-						<img src="images/teams3.jpg" alt=" " class="img-responsive" />
-					</li>
-					<li>
-						<img src="images/teams4.jpg" alt=" " class="img-responsive" />
-					</li>
-					</ul>
-					<div class="resp-tabs-container">
-					<div class="tab1">
-						<div class="col-md-6 team-img-w3-agile">
-						</div>
-						<div class="col-md-6 team-Info-agileits">
-							<h4>Abhjit</h4>
-							<span>(Soft Skills Trainer and Life Skills Coach) </span>
-							<p>Founder Member</p>
-						<div class="social-bnr-agileits footer-icons-agileinfo">
-							<ul class="social-icons3">
-								<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
-								<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
-								<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
-								<li><a href="#" class="fa fa-rss icon-border rss"> </a></li>
-							</ul>
-						</div>							
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="tab2">
-					<div class="col-md-6 team-img-w3-agile">
-						</div>
-						<div class="col-md-6 team-Info-agileits">
-							<h4>Chaitanya </h4>
-							<span>(Advocate)</span>
-							<p>Team Member </p>	
-						<div class="social-bnr-agileits footer-icons-agileinfo">
-							<ul class="social-icons3">
-								<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
-								<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
-								<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
-								<li><a href="#" class="fa fa-rss icon-border rss"> </a></li>
-							</ul>
-						</div>							
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="tab3">
-						<div class="col-md-6 team-img-w3-agile">
-						</div>
-						<div class="col-md-6 team-Info-agileits">
-							<h4>Roopali</h4>
-							<span>(Company Secretary) </span>
-							<p>Team Member</p>
-						<div class="social-bnr-agileits footer-icons-agileinfo">
-							<ul class="social-icons3">
-								<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
-								<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
-								<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
-								<li><a href="#" class="fa fa-rss icon-border rss"> </a></li>
-							</ul>
-						</div>							
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="tab4">
-					<div class="col-md-6 team-img-w3-agile">
-						</div>
-						<div class="col-md-6 team-Info-agileits">
-							<h4>Harsha Kodwani</h4>
-							<span>(MA English)</span>
-							<p>Team Member</p>
-						<div class="social-bnr-agileits footer-icons-agileinfo">
-							<ul class="social-icons3">
-								<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
-								<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
-								<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
-								<li><a href="#" class="fa fa-rss icon-border rss"> </a></li>
-							</ul>
-						</div>							
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					</div>
-			</div>
-	</div>
-</div>
 <!-- //team -->
 <!-- Gallery -->
 <!-- //gallery -->
@@ -432,11 +292,11 @@ Payroll, Forming policies for Employee welfare,Employee motivation and creating 
 								<i class="fa fa-star" aria-hidden="true"></i>
 								<i class="fa fa-star" aria-hidden="true"></i>
 								<i class="fa fa-star" aria-hidden="true"></i>
-								Worth to come again
+								Trained with SPIRIT	
 								</h4>
 								<p>I am thankful to SPIRIT and Abhijeet for their efforts to train me. The methodology that they are using is awesome and it helped me grow as an independent learner </p>
-								<h5>Suraj</h5>
-								<p>Software Developer Persistent Systems Private Limited (Individual Trainee)</p>
+								<h5>Suraj<p>Software Developer Persistent Systems Pvt Ltd</h5>
+								<p>  (Individual Trainee)</p>
 							</div>
 							<div class="clearfix"> </div>
 						</li>
@@ -454,7 +314,7 @@ Payroll, Forming policies for Employee welfare,Employee motivation and creating 
 								<i class="fa fa-star" aria-hidden="true"></i>
 								<i class="fa fa-star" aria-hidden="true"></i>
 								<i class="fa fa-star-o" aria-hidden="true"></i>
-								Worth to come again
+								Trained with SPIRIT
 								</h4>
 								<p>The way you share your knowledge will take SPIRIT miles ahead with lots of progress.  Along with the training it’s your connect and deliverance that not only enhances the content but also develops the deep rooted understanding. </p>
 								<h5>Prajakta Kohale</h5>
@@ -476,35 +336,11 @@ Payroll, Forming policies for Employee welfare,Employee motivation and creating 
 								<i class="fa fa-star" aria-hidden="true"></i>
 								<i class="fa fa-star" aria-hidden="true"></i>
 								<i class="fa fa-star-o" aria-hidden="true"></i>
-								Worth to come again
+								Trained with SPIRIT
 								</h4>
 								<p>I can now easily measure my success through the customised yardstick developed by Abhijeet. The appreciations I received from clients after learning the progress techniques in SPIRIT certify this growth. </p>
 								<h5>Sushant Barhanpure </h5>
 								<p>Associate Senior Engineer Master Card</p>
-							</div>
-							<div class="clearfix"> </div>
-						</li>
-						<li>
-							<div class="w3layouts_work_grid_left">
-								<img src="images/5.jpg" alt=" " class="img-responsive" />
-								<div class="w3layouts_work_grid_left_pos">
-									<img src="images/c4.jpg" alt=" " class="img-responsive" />
-								</div>
-							</div>
-							<div class="w3layouts_work_grid_right">
-								<h4>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								Worth to come again
-								</h4>
-								<p>Sed tempus vestibulum lacus blandit faucibus. 
-									Nunc imperdiet, diam nec rhoncus ullamcorper, nisl nulla suscipit ligula, 
-									at imperdiet urna. </p>
-								<h5>Amie Bublitz</h5>
-								<p>Switzerland</p>
 							</div>
 							<div class="clearfix"> </div>
 						</li>
@@ -567,16 +403,9 @@ Payroll, Forming policies for Employee welfare,Employee motivation and creating 
 		<div class="col-lg-6 col-md-6 col-sm-6 contact-w3-agile1" data-aos="flip-right">
 			<h4>Connect With Us</h4>
 			<p class="contact-agile1"><strong>Phone :</strong>+91 9112299630 </p>
-			<p class="contact-agile1"><strong>Email :</strong> <a href="mailto:name@example.com">INFO@spiritconsultamcy.org</a></p>
-			<p class="contact-agile1"><strong>Address :</strong>Chota Tajban,Sakkardara,Nagpur </p>
+			<p class="contact-agile1"><strong>Email :</strong> <a href="mailto:name@example.com">abhijeetdehadrai9@gmail.com</a></p>
+			<p class="contact-agile1"><strong>Address :</strong>Mukteshwari<br>Plot No-48,Jaiprakash Nagar,Nagpur </p>
 																
-			<div class="social-bnr-agileits footer-icons-agileinfo">
-				<ul class="social-icons3">
-								<li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
-								<li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
-								<li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li> 
-								
-							</ul>
 			</div>
 		</div>
 		<div class="clearfix"></div>
