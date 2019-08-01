@@ -3256,8 +3256,8 @@ section.portfolio-w3ls {
 	margin-top: 3em;
 }
 .inquiry {
-	top: 65px;
-  bottom: 0px !important;
+	top: 7%;
+	bottom: 0px !important;
 	background: url(../images/pen.png) no-repeat 0px 0px !important;
 }
 .contactus-popup-sec .form-content-sec ul li input:focus, .contactus-popup-sec .form-content-sec ul li button.contact-btn:focus, .contactus-popup-sec .form-content-sec ul li textarea:focus { outline: none; }
