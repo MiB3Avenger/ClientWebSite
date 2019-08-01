@@ -3251,3 +3251,59 @@ color: #fff !important;
 	}
 }
 /*--responsive--*/
+/*--custom--*/
+section.portfolio-w3ls {
+	margin-top: 3em;
+}
+.inquiry {
+	top: 65px;
+  bottom: 0px !important;
+	background: url(../images/pen.png) no-repeat 0px 0px !important;
+}
+.contactus-popup-sec .form-content-sec ul li input:focus, .contactus-popup-sec .form-content-sec ul li button.contact-btn:focus, .contactus-popup-sec .form-content-sec ul li textarea:focus { outline: none; }
+.contactus-popup-sec { font-family: 'Montserrat', sans-serif; margin: 30px auto; padding: 0; width: 530px; box-sizing: border-box; position: relative; }
+.contactus-popup-sec h1 { font-family: 'Montserrat', sans-serif; font-size: 22px; margin: 0px; padding: 10px 0; letter-spacing: 1px; width: 100%; background: #00b6f1; text-align: center; text-transform: uppercase; color: #fff; text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.31); float: left; width: 100%; }
+.contactus-popup-sec .form-content-sec { padding: 0 55px; width: 100%; float: left; box-sizing: border-box; background: #000 url(images/contact-bg-img.jpg) no-repeat no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;-webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.52);-moz-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.52);box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.52); }
+.contactus-popup-sec .form-content-sec h3 { font-family: 'Montserrat', sans-serif; font-size: 14px; margin: 0px; padding: 12px 0; font-weight: 500; line-height: 29px; color: #fff; text-align: center; }
+.contactus-popup-sec .form-content-sec h6 { color: #fff; text-align: center; font-size: 12px; font-weight: 700; letter-spacing: 0.6px; margin: 0 0 15px 0; padding: 0px; }
+.contactus-popup-sec .form-content-sec ul { margin: 0px; padding: 0px; float: left; width: 100%; list-style: none; }
+.contactus-popup-sec .form-content-sec ul li { margin: 0 0 15px 0; padding: 0px; float: left; width: 100%; }
+.contactus-popup-sec .form-content-sec ul li input { font-family: 'Montserrat', sans-serif; font-size: 14px; color: #222; border: 0px; margin: 0px; padding: 15px; width: 100%; float: left; -webkit-border-radius: 3px; border-radius: 3px; box-sizing: border-box; }
+.contactus-popup-sec .form-content-sec ul li textarea { font-family: 'Montserrat', sans-serif; font-size: 14px; color: #222; border: 0px; margin: 0px; padding: 15px; width: 100%; height: 150px; resize: none; float: left; -webkit-border-radius: 3px; border-radius: 3px; box-sizing: border-box; }
+.contactus-popup-sec .form-content-sec ul li button.contact-btn { cursor: pointer; border: 0px; margin: 0px; width: 100%; -webkit-border-radius: 3px; border-radius: 3px; padding: 15px 0; font-family: 'Montserrat', sans-serif; font-size: 22px; color: #fff; text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.31); background: #8cc63f; background: -moz-linear-gradient(top, #8cc63f 0%, #00ae4d 99%); background: -webkit-linear-gradient(top, #8cc63f 0%, #00ae4d 99%); background: linear-gradient(to bottom, #8cc63f 0%, #00ae4d 99%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8cc63f', endColorstr='#00ae4d', GradientType=0 );
+}
+.contactus-popup-sec .contactus-popup-clsbtn { font-size: 14px; line-height: 18px; width: 28px; height: 28px; -webkit-border-radius: 50%; border-radius: 50%; background: #FFF; position: absolute; right: -8px; top: -14px; border: 0px; -webkit-box-shadow: 0 0 2px 0 rgba(0,0,0,0.27); box-shadow: 0 0 2px 0 rgba(0,0,0,0.27); cursor: pointer; }
+.contactus-popup-sec .contactus-popup-clsbtn:hover {color: #fff; background: #0dc4ff;}
+.contactus-popup-sec .form-content-sec ul li button.contact-btn:hover { background: #00ae4d; }
+.contactus-popup{	display: flex; position: fixed; top: 3%; z-index: 9999; right: 1%; }
+.contactus-popup-sec .form-content-sec h4 {font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: 300;color: white}
+
+@media only screen and (max-width:640px) {
+.contactus-popup-sec { width: 80% }
+.contactus-popup-sec h1 { font-size: 30px; }
+.contactus-popup-sec .form-content-sec ul li { margin: 0 0 20px 0; }
+}
+@media only screen and (max-width:480px) {
+.contactus-popup-sec { width: 90% }
+.contactus-popup-sec h1 { font-size: 20px; padding: 11px 0; }
+.contactus-popup-sec .form-content-sec { padding: 0 20px; }
+.contactus-popup-sec .form-content-sec h3 {font-size: 13px;letter-spacing: 0.5px;line-height: 22px;padding: 15px 0;}
+.contactus-popup-sec .form-content-sec h6 { font-weight: normal; margin: 0 0 30px 0; }
+.contactus-popup-sec .form-content-sec ul li input {padding: 12px 15px;font-size: 12px;}
+.contactus-popup-sec .form-content-sec ul li textarea {height: 120px;font-size: 12px;}
+.contactus-popup-sec .form-content-sec ul li button.contact-btn {padding: 11px 0;font-size: 16px;letter-spacing: 0.5px;}
+.contactus-popup-sec .form-content-sec ul li {margin: 0 0 10px 0;}
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: black;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: black;
+}
+/*--custom--*/
