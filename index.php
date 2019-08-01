@@ -8,7 +8,6 @@ include('db.php');
 		<!-- for-mobile-apps -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="keywords" content="Resort Inn Responsive , Smartphone Compatible web template , Samsung, LG, Sony Ericsson, Motorola web design" />
 		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 				function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<!-- //for-mobile-apps -->
@@ -63,6 +62,8 @@ include('db.php');
 							<ul class="nav navbar-nav menu__list">
 								<li class="menu__item menu__item--current"><a href="#index" class="menu__link">Home</a></li>
 								<li class="menu__item"><a href="#about" class="menu__link scroll">About</a></li>
+								<li class="menu__item"><a href="#services" class="menu__link scroll">Services</a></li>
+								<li class="menu__item"><a href="#team" class="menu__link scroll">Team</a></li>
 								<li class="menu__item"><a href="#client" class="menu__link scroll">Clients</a></li>
 								<li class="menu__item"><a href="#contact" class="menu__link scroll">Contact Us</a></li>
 							</ul>
@@ -212,31 +213,39 @@ include('db.php');
 		</div>
 	 	<!-- //about -->
 		<!--sevices-->
-		<div class="advantages">
+		<div class="advantages" id="services">
 			<div class="container">
 				<div class="advantages-main">
-						<h3 class="title-w3-agileits">Our Services</h3>
-				   <div class="advantage-bottom">
-					 <div class="col-md-6 advantage-grid left-w3ls wow bounceInLeft" data-wow-delay="0.3s">
-					 	<div class="advantage-block ">
-							<i class="fa fa-credit-card" aria-hidden="true"></i>
-					 		<h4>Stay First, Pay After! </h4>
-					 		<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates.</p>
-							<p><i class="fa fa-check" aria-hidden="true"></i>Decorated room, proper air conditioned</p>
-							<p><i class="fa fa-check" aria-hidden="true"></i>Private balcony</p>
-
-					 	</div>
-					 </div>
-					 <div class="col-md-6 advantage-grid right-w3ls wow zoomIn" data-wow-delay="0.3s">
-					 	<div class="advantage-block">
-							<i class="fa fa-clock-o" aria-hidden="true"></i>
-					 		<h4>24 Hour Restaurant</h4>
-					 		<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates.</p>
-							<p><i class="fa fa-check" aria-hidden="true"></i>24 hours room service</p>
-							<p><i class="fa fa-check" aria-hidden="true"></i>24-hour Concierge service</p>
-					 	</div>
-					 </div>
-					 <div class="clearfix"></div>
+					<h3 class="title-w3-agileits">Our Services</h3>
+				  <div class="advantage-bottom">
+						<div class="col-md-6 advantage-grid left-w3ls wow bounceInLeft" data-wow-delay="0.3s">
+							<div class="advantage-block ">
+								<i class="fa fa-credit-card" aria-hidden="true"></i>
+						 		<h4>Training Services</h4>
+						 		<p>Variety of training services, may that be for educational purposes or corporate, we provide both. Contact us for more details.</p>
+								<p><i class="fa fa-check" aria-hidden="true"></i>Educational Training</p>
+								<p><i class="fa fa-check" aria-hidden="true"></i>Personality Development </p>
+								<p><i class="fa fa-check" aria-hidden="true"></i>Psychometric Tests </p>
+								<p><i class="fa fa-check" aria-hidden="true"></i>Corporate Training</p>
+								<p><i class="fa fa-check" aria-hidden="true"></i>Senior Management</p>
+								<p><i class="fa fa-check" aria-hidden="true"></i>Attitude Training</p>
+								<p><i class="fa fa-check" aria-hidden="true"></i>SWOT Analysis</p>
+							</div>
+						</div>
+						<div class="col-md-6 advantage-grid right-w3ls wow zoomIn" data-wow-delay="0.3s">
+							<div class="advantage-block">
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+						 		<h4>Privileged Services & Methodologies</h4>
+						 		<p>Privileged Services which are neccessary for micromanaging a business or an organization are provided as well. Our methods for providing those services are listed as well. Contact for more details.</p>
+								<p><i class="fa fa-check" aria-hidden="true"></i>Energy Management</p>
+								<p><i class="fa fa-check" aria-hidden="true"></i>Creating Culture</p>
+								<p><i class="fa fa-check" aria-hidden="true"></i>Predicting Performance</p>
+								<p><i class="fa fa-check" aria-hidden="true"></i>Seminars</p>
+								<p><i class="fa fa-check" aria-hidden="true"></i>Guest Lectures</p>
+								<p><i class="fa fa-check" aria-hidden="true"></i>Workshops</p>
+						 	</div>
+						</div>
+						<div class="clearfix"></div>
 					</div>
 				</div>
 			</div>
@@ -267,7 +276,7 @@ include('db.php');
 								</div>
 								<div class="col-md-6 team-Info-agileits">
 									<h4>Lucas Jimenez</h4>
-									<span>Manager</span>
+									<span>CEO</span>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor .</p>
 								</div>
 								<div class="clearfix"> </div>
@@ -277,7 +286,7 @@ include('db.php');
 								</div>
 								<div class="col-md-6 team-Info-agileits">
 									<h4>Sarah Connor</h4>
-									<span>Receptionist</span>
+									<span>title</span>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor .</p>
 								</div>
 								<div class="clearfix"> </div>
@@ -287,7 +296,7 @@ include('db.php');
 								</div>
 								<div class="col-md-6 team-Info-agileits">
 									<h4>Ivan Simpson</h4>
-									<span>Manager</span>
+									<span>title</span>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor .</p>
 								</div>
 								<div class="clearfix"> </div>
@@ -297,7 +306,7 @@ include('db.php');
 								</div>
 								<div class="col-md-6 team-Info-agileits">
 									<h4>Marc Gutierrez</h4>
-									<span>Receptionist</span>
+									<span>title</span>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor .</p>
 								</div>
 								<div class="clearfix"> </div>
@@ -307,87 +316,141 @@ include('db.php');
 			</div>
 		</div>
 		<!-- //team -->
-	 <!-- visitors -->
-	 <div class="w3l-visitors-agile" >
-		 <div class="container">
-			 <h3 class="title-w3-agileits title-black-wthree">What Our Client Says</h3>
+		<!-- visitors -->
+		<div class="w3l-visitors-agile" id="client">
+			<div class="container">
+				<h3 class="title-w3-agileits title-black-wthree">What Our Client Says</h3>
+			</div>
+			<div class="w3layouts_work_grids">
+				<section class="slider">
+					<div class="flexslider">
+						<ul class="slides">
+							<li>
+								<div class="w3layouts_work_grid_left">
+									<img src="images/5.jpg" alt=" " class="img-responsive" />
+									<div class="w3layouts_work_grid_left_pos">
+										<img src="images/c1.jpg" alt=" " class="img-responsive" />
+									</div>
+								</div>
+								<div class="w3layouts_work_grid_right">
+									<h4>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										Trained with SPIRIT
+									</h4>
+									<p>I am thankful to SPIRIT and Abhijeet for their efforts to train me. The methodology that they are using is awesome and it helped me grow as an independent learner </p>
+									<h5>Suraj<p>Software Developer Persistent Systems Pvt Ltd</h5>
+									<p>  (Individual Trainee)</p>
+								</div>
+								<div class="clearfix"> </div>
+							</li>
+							<li>
+								<div class="w3layouts_work_grid_left">
+									<img src="images/5.jpg" alt=" " class="img-responsive" />
+									<div class="w3layouts_work_grid_left_pos">
+										<img src="images/c2.jpg" alt=" " class="img-responsive" />
+									</div>
+								</div>
+								<div class="w3layouts_work_grid_right">
+									<h4>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star-o" aria-hidden="true"></i>
+										Trained with SPIRIT
+									</h4>
+									<p>The way you share your knowledge will take SPIRIT miles ahead with lots of progress.  Along with the training it’s your connect and deliverance that not only enhances the content but also develops the deep rooted understanding. </p>
+									<h5>Prajakta Kohale</h5>
+									<p>Manager – HR HCG NCHRI CANCER CENTRE, Nagpur</p>
+								</div>
+								<div class="clearfix"> </div>
+							</li>
+							<li>
+								<div class="w3layouts_work_grid_left">
+									<img src="images/5.jpg" alt=" " class="img-responsive" />
+									<div class="w3layouts_work_grid_left_pos">
+										<img src="images/c3.jpg" alt=" " class="img-responsive" />
+									</div>
+								</div>
+								<div class="w3layouts_work_grid_right">
+									<h4>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star-o" aria-hidden="true"></i>
+										Trained with SPIRIT
+									</h4>
+									<p>I can now easily measure my success through the customised yardstick developed by Abhijeet. The appreciations I received from clients after learning the progress techniques in SPIRIT certify this growth. </p>
+									<h5>Sushant Barhanpure </h5>
+									<p>Associate Senior Engineer Master Card</p>
+								</div>
+								<div class="clearfix"> </div>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</div>
 		 </div>
-		 <div class="w3layouts_work_grids">
-			 <section class="slider">
-				 <div class="flexslider">
-					 <ul class="slides">
-						 <li>
-							 <div class="w3layouts_work_grid_left">
-								 <img src="images/5.jpg" alt=" " class="img-responsive" />
-								 <div class="w3layouts_work_grid_left_pos">
-									 <img src="images/c1.jpg" alt=" " class="img-responsive" />
-								 </div>
-							 </div>
-							 <div class="w3layouts_work_grid_right">
-								 <h4>
-								 <i class="fa fa-star" aria-hidden="true"></i>
-								 <i class="fa fa-star" aria-hidden="true"></i>
-								 <i class="fa fa-star" aria-hidden="true"></i>
-								 <i class="fa fa-star" aria-hidden="true"></i>
-								 <i class="fa fa-star" aria-hidden="true"></i>
-								 Trained with SPIRIT
-								 </h4>
-								 <p>I am thankful to SPIRIT and Abhijeet for their efforts to train me. The methodology that they are using is awesome and it helped me grow as an independent learner </p>
-								 <h5>Suraj<p>Software Developer Persistent Systems Pvt Ltd</h5>
-							 	 <p>  (Individual Trainee)</p>
-							 </div>
-							 <div class="clearfix"> </div>
-						 </li>
-						 <li>
-							 <div class="w3layouts_work_grid_left">
-								 <img src="images/5.jpg" alt=" " class="img-responsive" />
-								 <div class="w3layouts_work_grid_left_pos">
-									 <img src="images/c2.jpg" alt=" " class="img-responsive" />
-								 </div>
-							 </div>
-							 <div class="w3layouts_work_grid_right">
-								 <h4>
-								 <i class="fa fa-star" aria-hidden="true"></i>
-								 <i class="fa fa-star" aria-hidden="true"></i>
-								 <i class="fa fa-star" aria-hidden="true"></i>
-								 <i class="fa fa-star" aria-hidden="true"></i>
-								 <i class="fa fa-star-o" aria-hidden="true"></i>
-								 Trained with SPIRIT
-								 </h4>
-								 <p>The way you share your knowledge will take SPIRIT miles ahead with lots of progress.  Along with the training it’s your connect and deliverance that not only enhances the content but also develops the deep rooted understanding. </p>
-								 <h5>Prajakta Kohale</h5>
-							 	 <p>Manager – HR HCG NCHRI CANCER CENTRE, Nagpur</p>
-							 </div>
-							 <div class="clearfix"> </div>
-						 </li>
-						 <li>
-							 <div class="w3layouts_work_grid_left">
-								 <img src="images/5.jpg" alt=" " class="img-responsive" />
-								 <div class="w3layouts_work_grid_left_pos">
-									 <img src="images/c3.jpg" alt=" " class="img-responsive" />
-								 </div>
-							 </div>
-							 <div class="w3layouts_work_grid_right">
-								 <h4>
-								 <i class="fa fa-star" aria-hidden="true"></i>
-								 <i class="fa fa-star" aria-hidden="true"></i>
-								 <i class="fa fa-star" aria-hidden="true"></i>
-								 <i class="fa fa-star" aria-hidden="true"></i>
-								 <i class="fa fa-star-o" aria-hidden="true"></i>
-								 Trained with SPIRIT
-								 </h4>
-								 <p>I can now easily measure my success through the customised yardstick developed by Abhijeet. The appreciations I received from clients after learning the progress techniques in SPIRIT certify this growth. </p>
-								 <h5>Sushant Barhanpure </h5>
-								 <p>Associate Senior Engineer Master Card</p>
-							 </div>
-							 <div class="clearfix"> </div>
-						 </li>
-					 </ul>
-				 </div>
-			 </section>
-		 </div>
-	 </div>
-	 <!-- visitors -->
+		<!-- visitors -->
+		<!-- Gallery -->
+		<section class="portfolio-w3ls" id="gallery">
+			<h3 class="title-w3-agileits title-black-wthree">Our Clients</h3>
+			<div class="col-md-4 gallery-grid gallery1">
+				<a href="images/clients/Direct-Trainings-0.jpg" class="swipebox"><img src="images/clients/Direct-Trainings-0.jpg" class="img-responsive" alt="/">
+					<div class="textbox">
+						<h4>HCG Hospitals</h4>
+						<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 gallery-grid gallery1">
+				<a href="images/clients/Direct-Trainings-1.jpg" class="swipebox"><img src="images/clients/Direct-Trainings-1.jpg" class="img-responsive" alt="/">
+					<div class="textbox">
+						<h4>MedCash Healthcare Transactions</h4>
+						<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 gallery-grid gallery1">
+				<a href="images/clients/Direct-Trainings-2.jpg" class="swipebox"><img src="images/clients/Direct-Trainings-2.jpg" class="img-responsive" alt="/">
+					<div class="textbox">
+						<h4>Tata Aeronautics Limited</h4>
+						<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 gallery-grid gallery1">
+				<a href="images/clients/Through-MedCash-0.jpg" class="swipebox"><img src="images/clients/Through-MedCash-0.jpg" class="img-responsive" alt="/">
+					<div class="textbox">
+						<h4>Asian Kidney Hospital & Medical Center</h4>
+						<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 gallery-grid gallery1">
+				<a href="images/clients/Through-MedCash-1.jpg" class="swipebox"><img src="images/clients/Through-MedCash-1.jpg" class="img-responsive" alt="/">
+					<div class="textbox">
+						<h4>Icon Hospital</h4>
+						<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 gallery-grid gallery1">
+				<a href="images/clients/Through-MedCash-2.jpg" class="swipebox"><img src="images/clients/Through-MedCash-2.jpg" class="img-responsive" alt="/">
+					<div class="textbox">
+						<h4>Vidharbha Institute of Medical Science</h4>
+						<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+					</div>
+				</a>
+			</div>
+			<div class="clearfix"> </div>
+		</section>
+	 	<!-- //gallery -->
 		<!-- contact -->
 		<section class="contact-w3ls" id="contact">
 			<div class="container">
@@ -454,11 +517,47 @@ include('db.php');
 	    <p>© 2019 SPIRIT . All Rights Reserved | Design by <a href="http://a2datatech.com">a2datatech.com</a></p>
 	  </div>
 		<!--/footer -->
+		<div class="contactus-popup" style="display: none;">
+			<section class="contactus-popup-sec" >
+			  <button class="contactus-popup-clsbtn close-btn">X</button>
+			  <h1 data-edit="text">Inquiry</h1>
+			  <div class="form-content-sec">
+			    <h3 data-edit="text">Want to ask more about our services?
+			      Just fill the form below and submit.</h3>
+			    <ul>
+						<form method="post" name="sentInquiry" id="inquiryForm">
+				      <li>
+								<h4>Name</h4>
+				        <input required name="inquiryName" type="text">
+				      </li>
+				      <li>
+								<h4>Email</h4>
+				        <input required name="inquiryEmail" type="email">
+				      </li>
+				      <li>
+				        <textarea required name="message" placeholder="Your Message" data-edit="placeholder"></textarea>
+				      </li>
+				      <li>
+								<input type="submit" name="inquiry" value="Contact Us" class="contact-btn">
+				      </li>
+						</form>
+						<?php
+						if(isset($_POST['inquiry']))
+						{
+							$iname =$_POST['inquiryName'];
+							$msg = $_POST['message'];
+							$iemail = $_POST['inquiryEmail'];
+						}
+						?>
+			    </ul>
+			    <h6 data-edit="text">We Promise We Dont Spam Your Inbox</h6>
+			  </div>
+			</section>
+		</div>
 		<!-- js -->
 		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 		<!-- contact form -->
 		<script src="js/jqBootstrapValidation.js"></script>
-		<script src="js/contact_me.js"></script>
 		<!-- /contact form -->
 		<!-- Calendar -->
 		<script src="js/jquery-ui.js"></script>
@@ -548,6 +647,15 @@ include('db.php');
 					width: 'auto',
 					fit: true
 				});
+
+				$('button.close-btn').on('click', function(){
+					$('.contactus-popup').fadeOut(400);
+				});
+
+				$('a.inquiry').on('click', function(e){
+					e.preventDefault();
+					$('.contactus-popup').fadeIn(400);
+				});
 			});
 		</script>
 		<!--//tabs-->
@@ -562,11 +670,15 @@ include('db.php');
 				easingType: 'linear'
 				};
 			*/
+		  $('[data-toggle="popover"]').popover();
 			$().UItoTop({ easingType: 'easeOutQuart' });
 			});
 		</script>
 		<div class="arr-w3ls">
 			<a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+		</div>
+		<div class="arr-w3ls">
+			<a href="" id="toTop" class="inquiry" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 		</div>
 		<!-- //smooth scrolling -->
 		<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
