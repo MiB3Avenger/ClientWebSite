@@ -20,8 +20,11 @@
   -moz-box-sizing: border-box;
        box-sizing: border-box;
 }
-
+html{
+	height: 100%;
+}
 body {
+	height: 100%;
   background: #2c3338;
   color: #606468;
   font: 87.5%/1.5em 'Open Sans', sans-serif;
@@ -133,6 +136,7 @@ p {
 *{ margin: 0; padding: 0;}
 
 #clouds{
+	height: 80%;
 	padding: 50px 0;
 	background: #c9dbe9;
 	background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
@@ -183,7 +187,6 @@ p {
 /*variable speed, opacity, and position of clouds for realistic effect*/
 .x2 {
 	left: 200px;
-	
 	-webkit-transform: scale(0.6);
 	-moz-transform: scale(0.6);
 	transform: scale(0.6);
